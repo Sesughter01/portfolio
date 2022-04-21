@@ -142,7 +142,7 @@ header{
 .logo{
     max-width: 100px;
 }
-
+ 
 .nav{
     position: fixed;
     background: var(--clr-dark);
@@ -157,6 +157,7 @@ header{
     transition: transform 250ms cubic-bezier(0.5,0,0.5,1);
 }
 
+
 .nav__list{
     display: flex;
     flex-direction: column;
@@ -168,6 +169,7 @@ header{
       padding: 0;
 }
 .nav__link{
+    
     color: inherit;
     font-weight:var(--fw-bold);
     font-size: var(--fs-h2);
